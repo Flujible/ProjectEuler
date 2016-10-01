@@ -1,8 +1,8 @@
 console.log("=============================================================================");
 
-const array = 1000;
+const list = 1000;
 let sum = 0;
-for (var i = 0; i < array; i++) {
+for (var i = 0; i < list; i++) {
   if(i % 3 === 0 || i % 5 === 0) {
     sum += i;
   }
