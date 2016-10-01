@@ -33,10 +33,10 @@ while(n < 4000000) {
 arr = mkArr(i);
 fibArr = arr.map(fib);
 
-//Remove all elements that are larger than 4000000 or that are not even
+//Remove all elements that are not even
 fibArrLength = fibArr.length;
 for (let i = fibArrLength; i >= 0 ; i--) {
-  if (fibArr[i] % 2 != 0 || fibArr[i] > 4000000) {
+  if (fibArr[i] % 2 != 0) {
     fibArr.splice(i, 1);
   }
 }
