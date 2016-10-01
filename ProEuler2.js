@@ -21,8 +21,16 @@ let mkArr = function(n) {
   return arr;
 }
 
+//Find out how big many values the array needs to have
+let i = 0;
+let n = 0;
+while(n < 4000000) {
+  n = fib(i);
+  i++;
+}
+
 //Make an array and perform Fibonaci algorithm on all elements
-arr = mkArr(35);
+arr = mkArr(i);
 fibArr = arr.map(fib);
 
 //Remove all elements that are larger than 4000000 or that are not even
