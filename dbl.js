@@ -10,29 +10,27 @@ let dbl = function(n) {
   } else {
     return n * 2;
   }
-}
+};
 
 //function to double an input of any basic type
 let trpl = function(n) {
   if (typeof n === 'undefined') {
     return undefined;
-  } elseif (typeof n === 'string') {
+  } else if (typeof n === 'string') {
     return n + n;
   } else {
     return n * 3;
   }
-}
+};
 
 //Example pieces of code that may be needed when making my FYP
 let processSingleJob = function (job) {
-  job.getResults().then(
-    display();
-  )
+  job.getResults().then(display);
 };
 
 let processJobs = function (jobList) {
-  jobsList.forEach(processSingleJob);
-}
+  jobList.forEach(processSingleJob);
+};
 
 request('/selenium/jobs')
   .then(processJobs)
