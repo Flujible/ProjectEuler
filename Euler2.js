@@ -36,7 +36,7 @@ fibArr = arr.map(fib);
 //Remove all elements that are not even
 fibArrLength = fibArr.length;
 for (let i = fibArrLength; i >= 0 ; i--) {
-  if (fibArr[i] % 2 != 0) {
+  if (fibArr[i] % 2 !== 0) {
     fibArr.splice(i, 1);
   }
 }
