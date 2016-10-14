@@ -7,7 +7,7 @@ let fib = function fib(n) {
   } else {
     return fib(n-1) + fib(n-2);
   }
-}
+};
 
 
 let mkArr = function(n) {
@@ -19,7 +19,7 @@ let mkArr = function(n) {
     i ++;
   }
   return arr;
-}
+};
 
 //Find out how big many values the array needs to have
 let i = 0;
