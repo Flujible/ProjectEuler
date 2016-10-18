@@ -24,7 +24,7 @@ let isPrime = function (n) {
 		return false;
 	} else {
 		let sqrt = Math.sqrt(n);
-		for (let i = 2; i < sqrt; i++) {
+		for (let i = 2; i <= sqrt; i++) {
 			if (n % i === 0) {
 				return false;
 			}
