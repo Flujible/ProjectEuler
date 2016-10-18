@@ -19,7 +19,8 @@ let createFactors = function (n) {
 
 // check if the number is prime or not
 let isPrime = function (n) {
-	if (n < 2 || n % 1) {
+	if (n < 2 || n % 1 !== 0) {
+		// Non-integers are not considered prime
 		return false;
 	} else {
 		let sqrt = Math.sqrt(n);
