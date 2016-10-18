@@ -10,7 +10,7 @@ let createFactors = function (n) {
 	let factors = [];
 	for (let i = 0; i <= n; i++) {
 		if (n % i === 0) {
-			console.log(i)
+			console.log(i);
 			factors.push(i);
 		}
 	}
@@ -30,7 +30,7 @@ let isPrime = function (n) {
 			return true;
 		}
 	}
-}
+};
 
 let factors = createFactors(100);
 console.log(factors);
