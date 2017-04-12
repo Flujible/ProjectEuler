@@ -1,0 +1,20 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "description": "My solutions to the [Project Euler](https://projecteuler.net) problems",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Flujible@github.com/Flujible/ProjectEuler.git"
+  },
+  "author": "George Bryant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flujible/ProjectEuler/issues"
+  },
+  "homepage": "https://github.com/Flujible/ProjectEuler#readme"
+}

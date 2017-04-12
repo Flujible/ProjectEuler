@@ -1,12 +1,14 @@
-console.log("=============================================================================");
-
-const list = 1000;
-let sum = 0;
-for (var i = 0; i < list; i++) {
-  if(i % 3 === 0 || i % 5 === 0) {
-    sum += i;
+let euler1 = () => {
+  const list = 1000;
+  let sum = 0;
+  for (let i = 0; i < list; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+      sum += i;
+    }
   }
+  return sum;
 }
-console.log(sum);
 
-console.log("=============================================================================");
+module.exports = {
+  euler1
+}

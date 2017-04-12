@@ -1,5 +1,3 @@
-console.log("\n=============================================================================\n");
-console.log("New Method");
 //Recursive fibonacci algorithm
 let fib = function fib(n) {
   if(n <= 2) {
